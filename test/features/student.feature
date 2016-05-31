@@ -1,5 +1,5 @@
 Feature: Filter Test
-  Scenario: Scenario
+  Scenario: Scenario Exercise
     When I browse to the "/"
     When I enter "Warner" into "input.search" field
     Then the css element ".table tbody tr td" should contain the text "Warner"
